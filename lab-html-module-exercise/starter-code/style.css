@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: Open Sans;
+        margin: 0;
+        padding: 0;
+}
+
+/* nav */
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 40px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    float: left;
+    vertical-align: middle;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*   */
+
+/* Header  */
+
+header {
+    background-color: rgb(32, 101, 136);
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.header_firstDiv {
+    height: 50px;
+    display: inline;
+    vertical-align: text-top;
+}
+
+.header_secondDiv {
+    width: 460px;
+    margin: 40px 0 0 0;
+    padding: 0 10px 50px 80px;
+}
+
+.header_secondDiv h1 {
+    margin: 20px 0 10px 0;
+    padding: 5px 0 5px 0;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.header_secondDiv p {
+    margin: 10px 0 10px 0;
+    padding: 0 0 20px 0;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.header_secondDiv a {
+    background-color: rgb(240, 146, 51);
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin: 40px auto 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}
+
+header img {
+    height: 50px;
+    margin: 0 0 0 0;
+    vertical-align: middle;
+}
+
+header input {
+    background-color: rgb(31, 82, 111);
+    height: 45px;
+    width: 600px;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-size: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+/*  */
+
+/* First section */
+
+.firstSection {
+    background-color: rgb(39, 53, 71);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 120px 70px 120px 70px;
+}
+
+.img-collaboration {
+    height: 335px;
+    float: left;
+}
+
+.firstSectionDiv {
+    width: 445px;
+    padding: 0 10px 0 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+.firstSectionDiv h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.firstSectionDiv ul {
+    padding-left: 20px;
+}
+
+.firstSectionDiv li {
+    text-decoration: none;
+    text-align: left;
+    line-height: 2.5em;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.signUp {
+    background-color: rgb(203, 56, 55);
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+.learnMore {
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+
+/*  */
+
+/* Second section */
+
+.secondSection {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    color: white;
+    padding: 60px 10px 60px 10px;
+}
+
+.secondSection div {
+    position: absolute;
+    padding: 70px 0 0 110px;
+    width: 370px;
+}
+
+.secondSection h2 {
+    font-size: 2.2em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.secondSection a {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.1em;
+}
+
+/*  */
+
+/* Third section */
+
+.thirdSection {
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 10px 40px 10px;
+}
+
+.thirdSection div h2 {
+    color: rgb(83, 88, 98);
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+.thirdSection div p {
+    color: rgb(135, 145, 156);
+    padding: 10px;
+}
+
+.box {
+    color: rgb(135, 145, 156);
+    width: 20%;
+    padding: 20px;
+    margin: 0 0 0 8%;
+    float: left;
+}
+
+.box h3 {
+    margin: 10px;
+}
+
+/*  */
